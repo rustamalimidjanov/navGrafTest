@@ -7,4 +7,28 @@
     android:gravity="center"
     tools:context="com.example.navgraftest.FragmentThree">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview3"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name3"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button3"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
 </LinearLayout>
